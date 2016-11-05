@@ -1,0 +1,11 @@
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\bin\Debug\Module.dll
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\bin\Debug\Module.pdb
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\bin\Debug\Assembly-CSharp-firstpass.dll
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\bin\Debug\Assembly-CSharp.dll
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\bin\Debug\Rocket.API.dll
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\bin\Debug\Rocket.Core.dll
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\bin\Debug\Rocket.Unturned.dll
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\bin\Debug\UnityEngine.dll
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\obj\Debug\Module.csprojResolveAssemblyReference.cache
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\obj\Debug\Module.dll
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\obj\Debug\Module.pdb

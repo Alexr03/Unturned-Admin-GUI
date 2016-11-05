@@ -1,0 +1,13 @@
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\GUI.dll
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\GUI.pdb
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\Assembly-CSharp-firstpass.dll
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\Assembly-CSharp.dll
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\Module.dll
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\Rocket.API.dll
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\Rocket.Core.dll
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\Rocket.Unturned.dll
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\UnityEngine.dll
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\Module.pdb
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\obj\Release\GUI.csprojResolveAssemblyReference.cache
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\obj\Release\GUI.dll
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\obj\Release\GUI.pdb

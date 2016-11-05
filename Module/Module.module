@@ -1,0 +1,11 @@
+﻿{
+	"Name": "Module",
+	"Version": "3.17.4.0",
+	"Assemblies":
+	[
+		{
+			"Path": "/Module.dll",
+			"Role": "Both_Optional"
+		}
+	]
+}
