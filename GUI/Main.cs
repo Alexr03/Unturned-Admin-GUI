@@ -20,15 +20,17 @@ namespace GUI
         private int progress_C = 0;
         private int progress_D = 0;
         private int progress_E = 0;
-        private Timer reload = new Timer();
+        private Timer reload;
 
         protected override void Load()
         {
             Instance = this;
             Rocket.Core.Logging.Logger.Log("GUI has loaded");
 
+            reload = new Timer();
             reload.Interval = 500;
             reload.Elapsed += reload_Elapsed;
+            reload.Enabled = true;
         }
 
         private void reload_Elapsed(object sender, ElapsedEventArgs e)
@@ -44,10 +46,9 @@ namespace GUI
             progress_D = new Random().Next(200) - 100;
             progress_E = new Random().Next(200) - 100;
 
-            object values = new object[progress_A, progress_B, progress_C, progress_D, progress_E];
-            Logger.Log(String.Format("Looping, values - A: {O} B: {1} C: {2} D: {3} E: {4}", values));
+            Logger.Log("Looping, values - A: " + progress_A + " B: " + progress_B + " C: " + progress_C + " D: " + progress_D + "E: " + progress_E);
 
-            base.BroadcastMessage("flagsUpdate", values);
+            base.BroadcastMessage("flagsUpdate", new object[progress_A, progress_B, progress_C, progress_D, progress_E]);
         }
 
         
