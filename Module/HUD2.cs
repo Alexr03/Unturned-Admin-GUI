@@ -10,7 +10,12 @@ namespace Module
 {
     public class HUD2 : PlayerCaller
     {
-        bool visible = false;
+        private int progress_A = 0;
+        private int progress_B = 0;
+        private int progress_C = 0;
+        private int progress_D = 0;
+        private int progress_E = 0;
+
 
         private void Start()
         {
@@ -18,27 +23,22 @@ namespace Module
             //askToggleHud(true);
         }
 
-        public void askToggleHud(bool visible)
-        {
-            base.channel.send("tellToggleHud", ESteamCall.OWNER, ESteamPacket.UPDATE_RELIABLE_BUFFER, true);
-        }
 
-        public void tellToggleHud(CSteamID steamID, bool visible)
+        public void flagsUpdate(CSteamID steamID, params object[] values)
         {
             if (base.channel.checkServer(steamID))
             {
-                Debug.LogError("CALLED HUD");
-                this.visible = visible;
+                progress_A = int.Parse(values[0] + "");
+                progress_B = int.Parse(values[1] + "");
+                progress_C = int.Parse(values[2] + "");
+                progress_D = int.Parse(values[3] + "");
+                progress_E = int.Parse(values[4] + "");
             }
         }
 
-        private void OnGUI()
+        public void OnGUI()
         {
-            if (Dedicator.isDedicated) return;
-            GUI.Box(new Rect(20, 110, 200, 20), "ALEX & LINHY IS THE BEST");
-            if (visible)
-                GUI.Box(new Rect(20, 210, 130, 20), "ALEX IS THE BEST");
-
+            GUI.Box(new Rect(Screen.width / 2 - 100, Screen.height - 50, 200, 100), "A: " + progress_A + " \n B: " + progress_B + "\n C:" + progress_C + "\n D:" + progress_D + "\n E:" + progress_E);
         }
     }
 }

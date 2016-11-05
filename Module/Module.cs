@@ -16,15 +16,10 @@ namespace Module
 
         public void initialize()
         {
-            SDG.Unturned.Player.onPlayerCreated += (SDG.Unturned.Player player) =>
-            {
-                player.transform.gameObject.TryAddComponent<HUD2>();
-            };
         }
 
         public void shutdown()
         {
-            player.transform.gameObject.TryRemoveComponent<HUD2>();
         }
     }
 }
