@@ -26,6 +26,16 @@ namespace Module
             //askToggleHud(true);
         }
 
+        public static void doUpdate(Player plr, object parameters) {
+            GUI.Box(new Rect(100, 100, 100, 100), "called update");
+            instance.askFlagsUpdate(plr, parameters);
+        }
+
+        public void askFlagsUpdate(Player plr, object parameters)
+        {
+            plr.channel.SendMessage("tellFlagsUpdate", parameters);
+        }
+
         public void tellFlagsUpdate(CSteamID steamID, object[] parameters)
         {
             string str = "RECEIVED SOME FUCKING INFO! ";
