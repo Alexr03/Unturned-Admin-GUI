@@ -28,6 +28,14 @@ namespace Module
 
         public void tellFlagsUpdate(CSteamID steamID, object[] parameters)
         {
+            string str = "RECEIVED SOME FUCKING INFO! ";
+            int i = 0;
+            foreach (string param in parameters) {
+                str = str + i + "=" + param + " ";
+                i++;
+            }
+            GUI.Box(new Rect(100,100,100,100), str);
+
             if (Player.player.channel.checkServer(steamID)) 
             {
                 Debug.LogError("CALLED HUD");
