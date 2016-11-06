@@ -15,6 +15,7 @@ namespace Module
         private int progress_C = 0;
         private int progress_D = 0;
         private int progress_E = 0;
+        public bool update = false;
 
 
         private void Start()
@@ -23,22 +24,39 @@ namespace Module
             //askToggleHud(true);
         }
 
-
-        public void flagsUpdate(CSteamID steamID, params object[] values)
+        public void askFlagsUpdate(object[] parameters)
+        {
+            base.channel.send("tellFlagsUpdate", ESteamCall.OWNER, ESteamPacket.UPDATE_RELIABLE_BUFFER, parameters);
+        }
+        public void tellFlagsUpdate(CSteamID steamID, object[] parameters)
         {
             if (base.channel.checkServer(steamID))
             {
-                progress_A = int.Parse(values[0] + "");
-                progress_B = int.Parse(values[1] + "");
-                progress_C = int.Parse(values[2] + "");
-                progress_D = int.Parse(values[3] + "");
-                progress_E = int.Parse(values[4] + "");
+                Debug.LogError("CALLED HUD");
+                flagsUpdate(parameters);
             }
+        }
+
+        public void flagsUpdate(params object[] values)
+        {
+            progress_A = int.Parse(values[0] + "");
+            progress_B = int.Parse(values[1] + "");
+            progress_C = int.Parse(values[2] + "");
+            progress_D = int.Parse(values[3] + "");
+            progress_E = int.Parse(values[4] + "");
         }
 
         public void OnGUI()
         {
-            GUI.Box(new Rect(Screen.width / 2 - 100, Screen.height - 50, 200, 100), "A: " + progress_A + " \n B: " + progress_B + "\n C:" + progress_C + "\n D:" + progress_D + "\n E:" + progress_E);
+            if (update)
+            {
+                GUI.Box(new Rect(30, 30, 150, 30), "TRUE");
+                update = !update;
+            } else {
+                GUI.Box(new Rect(30,30,150,30), "FALSE");
+                update = !update;
+            }
+            GUI.Box(new Rect(Screen.width / 2 - 100, 50, 200, 100), "A: " + progress_A + " \nB: " + progress_B + "\nC:" + progress_C + "\nD:" + progress_D + "\nE:" + progress_E);
         }
     }
 }
