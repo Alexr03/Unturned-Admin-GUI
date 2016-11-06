@@ -71,7 +71,8 @@ namespace GUI
             foreach (CSteamID player in players)
             {
                 Player plr_player= PlayerTool.getPlayer(player);
-                plr_player.channel.send("tellFlagsUpdate", ESteamCall.OWNER, ESteamPacket.UPDATE_RELIABLE_BUFFER, new object[progress_A, progress_B, progress_C, progress_D, progress_E]);
+                Module.HUD2.doUpdate(progress_A, progress_B, progress_C, progress_D, progress_E);
+                //plr_player.channel.send("tellFlagsUpdate", ESteamCall.OWNER, ESteamPacket.UPDATE_RELIABLE_BUFFER, );
             }
 
         }

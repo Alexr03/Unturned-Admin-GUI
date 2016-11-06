@@ -16,15 +16,22 @@ namespace Module
         private int progress_D = 0;
         private int progress_E = 0;
         public bool update = false;
+        public static HUD2 instance;
 
 
         private void Start()
         {
+            instance = this;
             //base.channel.build();
             //askToggleHud(true);
         }
 
-        public void askFlagsUpdate(object[] parameters)
+        public static void doUpdate(params object[] parameters)
+        {
+            instance.askFlagsUpdate(parameters);
+        }
+
+        public void askFlagsUpdate(object parameters)
         {
             base.channel.send("tellFlagsUpdate", ESteamCall.OWNER, ESteamPacket.UPDATE_RELIABLE_BUFFER, parameters);
         }
