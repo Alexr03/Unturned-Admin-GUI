@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace Module
 {
-    public class HUD2 : PlayerCaller
+    public class HUD2 : MonoBehaviour
     {
         private int progress_A = 0;
         private int progress_B = 0;
@@ -26,21 +26,16 @@ namespace Module
             //askToggleHud(true);
         }
 
-        public static void doUpdate(params object[] parameters)
-        {
-            instance.askFlagsUpdate(parameters);
-        }
-
-        public void askFlagsUpdate(object parameters)
-        {
-            base.channel.send("tellFlagsUpdate", ESteamCall.OWNER, ESteamPacket.UPDATE_RELIABLE_BUFFER, parameters);
-        }
         public void tellFlagsUpdate(CSteamID steamID, object[] parameters)
         {
-            if (base.channel.checkServer(steamID))
+            if (Player.player.channel.checkServer(steamID)) 
             {
                 Debug.LogError("CALLED HUD");
                 flagsUpdate(parameters);
+            }
+            else
+            {
+                Debug.LogError("FAILED SERVER CHECK");
             }
         }
 
