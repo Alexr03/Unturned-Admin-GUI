@@ -57,12 +57,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HUD2.cs" />
+    <Compile Include="ControlConnector.cs" />
+    <Compile Include="HUD_CoreAdmin.cs" />
+    <Compile Include="HUD_Main.cs" />
+    <Compile Include="HUD_Players.cs" />
+    <Compile Include="HUD_ServerSettings.cs" />
     <Compile Include="Module.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Module.module" />
+    <None Include="Module.module">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

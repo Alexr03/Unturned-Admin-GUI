@@ -23,7 +23,7 @@ namespace GUI
 
         private void Connected(UnturnedPlayer player)
         {
-            player.Player.transform.gameObject.TryAddComponent<Module.HUD2>();
+
         }
 
         protected override void Unload()

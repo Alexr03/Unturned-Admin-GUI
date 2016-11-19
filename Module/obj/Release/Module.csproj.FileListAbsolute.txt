@@ -9,3 +9,4 @@ c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\bin\Release\Unity
 c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\obj\Release\Module.dll
 c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\obj\Release\Module.pdb
 c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\obj\Release\Module.csprojResolveAssemblyReference.cache
+c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\bin\Release\Module.module

@@ -1,0 +1,11 @@
+{
+	"Name": "Test",
+	"Version": "3.17.4.0",
+	"Assemblies":
+	[
+		{
+			"Path": "/Test.dll",
+			"Role": "Both_Optional"
+		}
+	]
+}

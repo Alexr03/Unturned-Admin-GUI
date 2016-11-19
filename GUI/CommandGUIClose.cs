@@ -11,8 +11,9 @@ using UnityEngine;
 
 namespace GUI
 {
-    class CommandGUI : PlayerCaller, IRocketCommand
+    class CommandGUIClose : PlayerCaller, IRocketCommand
     {
+
         public string Help
         {
             get { return ""; }
@@ -20,7 +21,7 @@ namespace GUI
 
         public string Name
         {
-            get { return "guiopen"; }
+            get { return "guiclose"; }
         }
 
         public string Syntax
@@ -42,7 +43,7 @@ namespace GUI
         {
             get
             {
-                return new List<string>() { "gui.open" };
+                return new List<string>() { "gui.close" };
             }
         }
 
@@ -50,7 +51,7 @@ namespace GUI
         {
             UnturnedPlayer plr = (UnturnedPlayer)caller;
 
-            //plr.Player.transform.gameObject.TryAddComponent<Module.HUD_Players>();
+            //plr.Player.transform.gameObject.TryRemoveComponent<Module.HUD_Players>();
         }
     }
 

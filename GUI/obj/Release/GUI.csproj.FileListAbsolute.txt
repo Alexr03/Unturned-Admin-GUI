@@ -11,3 +11,4 @@ c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\Module.p
 c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\obj\Release\GUI.csprojResolveAssemblyReference.cache
 c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\obj\Release\GUI.dll
 c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\obj\Release\GUI.pdb
+c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Release\Module.module
