@@ -9,3 +9,14 @@ c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\bin\Debug\UnityEn
 c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\obj\Debug\Module.csprojResolveAssemblyReference.cache
 c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\obj\Debug\Module.dll
 c:\Users\Alex\documents\visual studio 2015\Projects\GUI\Module\obj\Debug\Module.pdb
+C:\Users\Tomáš\Visual Studio\GUI\Module\bin\Debug\Module.dll
+C:\Users\Tomáš\Visual Studio\GUI\Module\bin\Debug\Module.pdb
+C:\Users\Tomáš\Visual Studio\GUI\Module\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Tomáš\Visual Studio\GUI\Module\bin\Debug\Assembly-CSharp.dll
+C:\Users\Tomáš\Visual Studio\GUI\Module\bin\Debug\Rocket.API.dll
+C:\Users\Tomáš\Visual Studio\GUI\Module\bin\Debug\Rocket.Core.dll
+C:\Users\Tomáš\Visual Studio\GUI\Module\bin\Debug\Rocket.Unturned.dll
+C:\Users\Tomáš\Visual Studio\GUI\Module\bin\Debug\UnityEngine.dll
+C:\Users\Tomáš\Visual Studio\GUI\Module\obj\Debug\Module.csprojResolveAssemblyReference.cache
+C:\Users\Tomáš\Visual Studio\GUI\Module\obj\Debug\Module.dll
+C:\Users\Tomáš\Visual Studio\GUI\Module\obj\Debug\Module.pdb

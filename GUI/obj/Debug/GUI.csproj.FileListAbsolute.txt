@@ -11,3 +11,16 @@ c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\obj\Debug\GUI.dll
 c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\obj\Debug\GUI.pdb
 c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Debug\Module.dll
 c:\users\alex\documents\visual studio 2015\Projects\GUI\GUI\bin\Debug\Module.pdb
+C:\Users\Tomáš\Visual Studio\GUI\GUI\bin\Debug\GUI.dll
+C:\Users\Tomáš\Visual Studio\GUI\GUI\bin\Debug\GUI.pdb
+C:\Users\Tomáš\Visual Studio\GUI\GUI\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Tomáš\Visual Studio\GUI\GUI\bin\Debug\Assembly-CSharp.dll
+C:\Users\Tomáš\Visual Studio\GUI\GUI\bin\Debug\Module.dll
+C:\Users\Tomáš\Visual Studio\GUI\GUI\bin\Debug\Rocket.API.dll
+C:\Users\Tomáš\Visual Studio\GUI\GUI\bin\Debug\Rocket.Core.dll
+C:\Users\Tomáš\Visual Studio\GUI\GUI\bin\Debug\Rocket.Unturned.dll
+C:\Users\Tomáš\Visual Studio\GUI\GUI\bin\Debug\UnityEngine.dll
+C:\Users\Tomáš\Visual Studio\GUI\GUI\bin\Debug\Module.pdb
+C:\Users\Tomáš\Visual Studio\GUI\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Tomáš\Visual Studio\GUI\GUI\obj\Debug\GUI.dll
+C:\Users\Tomáš\Visual Studio\GUI\GUI\obj\Debug\GUI.pdb

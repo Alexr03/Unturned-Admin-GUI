@@ -35,10 +35,13 @@ namespace Module
 
         public void shutdown()
         {
+<<<<<<< HEAD
             UnityEngine.Object.DestroyObject(Module.hudMain);
             UnityEngine.Object.DestroyObject(Module.hudPlayers);
             UnityEngine.Object.DestroyObject(Module.hudServerSettings);
             UnityEngine.Object.DestroyObject(Module.hudCoreAdmin);
+=======
+>>>>>>> origin/master
         }
     }
 }
